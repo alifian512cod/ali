@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>DOM Contoh Ke-2</title>
+<script type="text/javascript">
+var switchCount = 0;
+var adjectives = ["progamamer","web devaloper","ux/ui","fornt devaloper"];
+function switcher() {
+switchCount = (switchCount + 1) % adjectives.length;
+var italicNode = document.getElementById("adjPhrase");
+italicNode.firstChild.nodeValue = adjectives[switchCount];
+}
+</script>
+</head>
+<body>
+<h1>An HTML Document</h1>
+<p>Ini Adalah tujuan pertama <i id="adjPhrase">Sangat Sederhana</i> A<form>
+<button type="button" onclick="switcher()">Ganti Button</button>
+</form>
+</body>
+</html>

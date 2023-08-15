@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>maribelajarcoding.com</title>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ <script type="text/javascript">
+  $(document).ready(function() { 
+      $("#formMhs").submit(function(e) {
+          e.preventDefault();
+          $.ajax({
+              url: 'simpan-data.php',
+              type: 'post',
+              data: $(this).serialize(),             
+              success: function(data) {               
+              document.getElementById("formMhs").reset();
+              $('#status').html(data);              
+              }
+          });
+      });
+  })
+ </script>
+</head>
+<body>
+<form id="formMhs" method="POST">
+ <table>
+  <tr>
+   <td>NIM</td>
+   <td><input type="text" name="nim" id="nim"></td>
+  </tr>
+  <tr>
+   <td>Nama</td>
+   <td><input type="text" name="nama" id="nama"></td>
+  </tr>
+  <tr>
+   <td>Alamat</td>
+   <td><textarea name="alamat" id="alamat"></textarea></td>
+  </tr>
+  <tr>
+   <td>Jenis Kelamin</td>
+   <td>
+    <label><input type="radio" name="jeniskelamin" id="jeniskelamin" value="Laki-laki">Laki-laki</label>
+    <label><input type="radio" name="jeniskelamin" id="jeniskelamin" value="Perempuan">Perempuan</label>
+   </td>
+  </tr>
+  <tr>
+   <td></td>
+   <td>
+    <input type="submit" name="simpan" id="simpan" value="Simpan">
+   </td>
+  </tr>
+ </table>
+</form>
+<div id="status"></div>
+</body>
+
+</html>

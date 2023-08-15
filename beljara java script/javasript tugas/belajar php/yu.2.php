@@ -1,0 +1,150 @@
+<?php
+echo "<font color= black face='Calibri'>";
+
+
+echo "Hello World, My Name is Muhammad alifian r";
+
+echo "<br>";
+echo "<br>";
+
+echo "<B>";
+echo "DATA DIRI";
+echo "<br>";
+echo "<br>";
+
+echo "<table width='560' border='0'>";
+  echo "<tr>";
+    echo "<td width='51'>";
+        echo "&nbsp;";
+        echo "</td>";
+    echo "<td width='227'>";
+        echo "Nama Lengkap";
+        echo "</td>";
+    echo "<td width='8'>";
+        echo ":";
+        echo "</td>";
+    echo "<td width='254'>";
+        echo "Muhammad alifian .r";
+        echo "</td>";
+  echo "</tr>";
+
+  echo "<tr>";
+    echo "<td>";
+        echo "&nbsp;";
+        echo "</td>";
+    echo "<td>";
+        echo "Nama Panggilan";
+        echo "</td>";
+    echo "<td>";
+        echo ":";
+        echo "</td>";
+    echo "<td>";
+        echo "alifian ";
+        echo "</td>";
+  echo "</tr>";
+  echo "<tr>";
+    echo "<td>";
+        echo "&nbsp;";
+        echo "</td>";
+      
+    echo "<td>";
+        echo "Tempat, Tanggal Lahir";
+        echo "</td>";
+    echo "<td>";
+        echo ":";
+        echo "</td>";
+    echo "<td>";
+        echo "sidorajo,25,11,2002";
+        echo "</td>";
+  echo "</tr>";
+
+  echo "<tr>";
+    echo "<td>";
+        echo "&nbsp;";
+        echo "</td>";
+    echo "<td>";
+        echo "Asal SMP";
+        echo "</td>";
+    echo "<td>";
+        echo ":";
+        echo "</td>";
+    echo "<td>";
+        echo "SMP ullu albab";
+        echo "</td>";
+  echo "</tr>";
+  echo "<tr>";
+    echo "<td>";
+        echo "&nbsp;";
+        echo "</td>";
+      
+    echo "<td>";
+        echo "Alamat";
+        echo "</td>";
+    echo "<td>";
+        echo ":";
+        echo "</td>";
+    echo "<td>";
+        echo "Gilang Gg kamboja rt.08,rw,02";
+        echo "</td>";
+  echo "</tr>";
+  echo "<tr>";
+    echo "<td>";
+        echo "&nbsp;";
+        echo "</td>";
+      
+    echo "<td>";
+        echo "Tinggi/ Berat";
+        echo "</td>";
+    echo "<td>";
+        echo ":";
+        echo "</td>";
+    echo "<td>";
+        echo "175/30";
+        echo "</td>";
+  echo "</tr>";
+  echo "<tr>";
+    echo "<td>";
+        echo "&nbsp;";
+        echo "</td>";
+      
+    echo "<td>";
+        echo "Cita-cita";
+        echo "</td>";
+    echo "<td>";
+        echo ":";
+        echo "</td>";
+    echo "<td>";
+        echo "font devaloper";
+        echo "</td>";
+  echo "</tr>";
+  echo "<tr>";
+    echo "<td>";
+        echo "&nbsp;";
+        echo "</td>";
+    echo "<td>";
+        echo "Agama";
+        echo "</td>";
+    echo "<td>";
+        echo ":";
+        echo "</td>";
+    echo "<td>";
+        echo "islam";
+        echo "</td>";
+  echo "</tr>";
+
+  echo "<tr>";
+    echo "<td>";
+        echo "&nbsp;";
+        echo "</td>";
+    echo "<td>";
+        echo "Hobi";
+        echo "</td>";
+    echo "<td>";
+        echo ":";
+        echo "</td>";
+    echo "<td>";
+        echo "mendesain ,suka hal nya baru";
+        echo "</td>";
+  echo "</tr>";
+echo "</table>";
+?>
